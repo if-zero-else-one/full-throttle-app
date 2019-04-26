@@ -27,7 +27,7 @@ The build is minified and the filenames include the hashes.<br>
 
 ## Personal Notes
 
-The app is hosted <a href='https://full-throttle-app.herokuapp.com/'>here</a>.<br>
-Since on changing the slider an Internet API call is made, so the results might appear with a little bit delay.<br>
-The slider is from Material UI.<br>
+1. The app is hosted <a href='https://full-throttle-app.herokuapp.com/'>here</a>.
+2. Since on changing the slider an Internet API call is made, so the results might appear with a little bit delay.
+3. The slider is from Material UI.
 

@@ -83,7 +83,7 @@ class App extends React.Component {
             onChange={this.handleMonthChange}
             />
             </div>
-            <div style= {{marginTop: 60}}>
+            <div style={{marginTop: 60, alignItems: 'center', padding: 10}}>
                 <p>Monthly Payment: <p style = {{fontSize: 30}}>{this.state.monthly_payment}$</p></p> 
                 <p>Interest Rate: <p style = {{fontSize: 30}}>{this.state.interest_rate}</p></p>
                 <p>Number of Payments: <p style = {{fontSize: 30}}>{this.state.num_payments}</p></p>
