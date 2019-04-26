@@ -61,7 +61,7 @@ class App extends React.Component {
         return (
         <div align='center' className='container-fluid' style = {{width: '50%', alignItems:'center'}}>
             <div className='container-fluid' style ={{ marginBottom: 30}}>
-            <p id="label" >Loan - {this.state.loan_value}$</p>
+            <p id="label" style = {{margin: '0px', padding: '0px'}}>Loan - <p style = {{fontSize: 30, margin: '0px', padding: '0px'}}>{this.state.loan_value}$</p></p>
             <Slider
             classes={{ container: classes.slider }}
             value={this.state.loan_value}
@@ -74,7 +74,7 @@ class App extends React.Component {
             </div>
 
             <div className='container-fluid' style= {{marginBottom: 30}}>
-            <p id="label">Months - {this.state.month_value}</p>
+            <p id="label" style = {{margin: '0px', padding: '0px'}}>Months - <p style = {{fontSize: 30, margin: '0px', padding: '0px'}}>{this.state.month_value}</p></p>
             <Slider
             classes={{ container: classes.slider }}
             value={this.state.month_value}
