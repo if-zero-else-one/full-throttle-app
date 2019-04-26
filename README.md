@@ -25,10 +25,9 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 
 
-### Personal Notes
+## Personal Notes
 
 The app is hosted <a href='https://full-throttle-app.herokuapp.com/'>here</a>.<br>
 Since on changing the slider an Internet API call is made, so the results might appear with a little bit delay.<br>
 The slider is from Material UI.<br>
-For 
 
