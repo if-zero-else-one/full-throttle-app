@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-//import SimpleSlider from './slider';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
 import Slider from '@material-ui/lab/Slider';
 import "bootstrap/dist/css/bootstrap.css"
 
